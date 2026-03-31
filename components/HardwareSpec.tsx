@@ -3,9 +3,37 @@ import React from 'react';
 
 const hardware = [
     {
-        category: 'LATEST: Blackwell Architecture',
+        category: 'LATEST: Blackwell Ultra',
+        name: 'NVIDIA B300 GPU',
+        description: 'Blackwell Ultra B300 GPU delivers the highest single-GPU AI performance with 288GB HBM3e memory, 12 TB/s bandwidth, and 2nd-gen Transformer Engine.',
+        imageUrl: '/nvidia-blackwell-ultra.jpg',
+        stats: [
+            { value: '288 GB', label: 'HBM3e Memory' },
+            { value: '12 TB/s', label: 'Memory Bandwidth' },
+            { value: '~$5.99', label: '/GPU-hr Cloud' },
+            { value: 'Blackwell Ultra', label: 'Architecture' },
+            { value: '1800 GB/s', label: 'NVLink 5.0' },
+            { value: '2nd Gen', label: 'Transformer Engine' },
+        ]
+    },
+    {
+        category: 'Rack-Scale: Blackwell Architecture',
+        name: 'NVIDIA GB200 NVL72',
+        description: 'Rack-scale system with 8x B200 GPUs and 2x Grace CPUs. 1.4 EXAFLOPS FP4 performance with 1,536GB total HBM3e memory and direct liquid cooling.',
+        imageUrl: '/nvidia-blackwell-ultra.jpg',
+        stats: [
+            { value: '1,536 GB', label: 'Total HBM3e' },
+            { value: '1.4 EX', label: 'FLOPS FP4' },
+            { value: '8x B200', label: '+ 2x Grace' },
+            { value: 'From $399K', label: 'Purchase' },
+            { value: '$29,999', label: '/mo Lease' },
+            { value: 'Liquid', label: 'Cooled' },
+        ]
+    },
+    {
+        category: 'Blackwell Architecture',
         name: 'NVIDIA B200 GPU',
-        description: 'The latest Blackwell B200 GPU delivers unprecedented AI performance with 192GB HBM3e memory and 2nd-gen Transformer Engine for next-generation AI workloads.',
+        description: 'The Blackwell B200 GPU delivers exceptional AI performance with 192GB HBM3e memory and 2nd-gen Transformer Engine for next-generation AI workloads.',
         imageUrl: '/nvidia-blackwell-ultra.jpg',
         stats: [
             { value: '192 GB', label: 'HBM3e Memory' },
@@ -17,7 +45,7 @@ const hardware = [
         ]
     },
     {
-        category: 'LATEST: Blackwell Architecture',
+        category: 'Blackwell Architecture',
         name: 'NVIDIA B100 GPU',
         description: 'Blackwell B100 GPU combines exceptional AI performance with 192GB memory, perfect for training and inference of the largest AI models.',
         imageUrl: '/nvidia-dgx-spark-and-dgx-station.jpg',
@@ -56,6 +84,20 @@ const hardware = [
             { value: '2 PFLOPS', label: 'FP8 AI Performance' },
             { value: 'Hopper', label: 'Architecture' },
             { value: 'PCIe Gen5', label: 'System Interface' },
+        ]
+    },
+    {
+        category: 'COMING 2027: Vera Rubin Architecture',
+        name: 'NVIDIA R-Series (Vera Rubin)',
+        description: 'Next-generation Vera Rubin architecture GPUs are expected in 2027. Contact us to join the waitlist for early access when available.',
+        imageUrl: '/nvidia-dgx-spark-and-dgx-station.jpg',
+        stats: [
+            { value: 'R-Series', label: 'Architecture' },
+            { value: '2027', label: 'Expected' },
+            { value: 'HBM4', label: 'Memory Type' },
+            { value: 'Next Gen', label: 'NVLink' },
+            { value: 'TBD', label: 'Performance' },
+            { value: 'Waitlist', label: 'Status' },
         ]
     },
 ];

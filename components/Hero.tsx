@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
                 </span>
             </h1>
             <p className="max-w-3xl mx-auto text-lg md:text-xl text-gray-400 mb-10">
-                Access NVIDIA's latest Blackwell architecture GPUs. Rent or buy B200 and B100 GPUs with unprecedented AI performance, 192GB HBM3e memory, and next-generation capabilities for frontier model training and inference.
+                Access NVIDIA's latest Blackwell Ultra architecture GPUs. Rent or buy B300, B200, and B100 GPUs with unprecedented AI performance, up to 288GB HBM3e memory, and next-generation capabilities for frontier model training and inference.
             </p>
             <div className="flex justify-center items-center space-x-4">
                 <a href="#pricing" className="bg-primary text-black font-bold py-4 px-10 rounded-lg hover:bg-primary-dark transition-all duration-300 transform hover:scale-105 text-lg">

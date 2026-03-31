@@ -11,7 +11,7 @@ const DGXSparkHighlight: React.FC = () => {
     addItem({
       id: 'dgx-spark',
       name: 'DGX Spark',
-      price: 4000,
+      price: 3999,
       description: 'Perfect for startups and researchers to kickstart projects on a powerful, dedicated DGX instance.',
       purchaseMethod: 'online',
       image: '/nvidia-dgx-spark-and-nvidia-dgx-station.jpg',
@@ -41,7 +41,7 @@ const DGXSparkHighlight: React.FC = () => {
               className="relative rounded-2xl shadow-2xl border border-primary/30"
             />
             <div className="absolute -top-4 -right-4 bg-primary text-black font-bold px-6 py-3 rounded-full shadow-lg transform rotate-12">
-              Only $4,000
+              Only $3,999
             </div>
           </div>
 
@@ -153,7 +153,7 @@ const DGXSparkHighlight: React.FC = () => {
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>
-                    Add to Cart - $4,000
+                    Add to Cart - $3,999
                   </>
                 )}
               </button>

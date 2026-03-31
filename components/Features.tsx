@@ -31,7 +31,7 @@ const features = [
   {
     icon: CpuChipIcon,
     title: 'Elite NVIDIA Hardware',
-    description: 'Get direct access to the world\'s most advanced AI hardware, including NVIDIA DGX systems, H200, and H100 GPUs.',
+    description: 'Get direct access to the world\'s most advanced AI hardware, including NVIDIA Blackwell Ultra B300, B200, GB200 NVL72, DGX systems, and Hopper GPUs.',
   },
   {
     icon: ScaleIcon,

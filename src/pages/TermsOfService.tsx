@@ -55,7 +55,7 @@ const TermsOfService: React.FC = () => {
 
             <h3 className="text-xl font-semibold text-white mb-2 mt-4">4.1 DGX Spark</h3>
             <ul className="list-disc list-inside space-y-2 pl-4 mb-4">
-              <li>One-time payment of $4,000 includes dedicated DGX instance</li>
+              <li>One-time payment of $3,999 includes dedicated DGX instance</li>
               <li>Includes 100 hours of compute time</li>
               <li>Additional compute hours available for purchase</li>
               <li>Maximum 5 units per order</li>

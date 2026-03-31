@@ -11,7 +11,7 @@ const FAQ: React.FC = () => {
     },
     {
       question: "How does pricing work?",
-      answer: "DGX Spark is a one-time $4,000 payment that includes 100 hours of compute. For on-demand usage beyond that, check out Zoo Cloud for pay-as-you-go pricing. Enterprise customers can contact sales for custom SuperPOD deployments and volume pricing."
+      answer: "DGX Spark is a one-time $3,999 payment that includes 100 hours of compute. For on-demand usage beyond that, check out Zoo Cloud for pay-as-you-go pricing. Enterprise customers can contact sales for custom SuperPOD deployments and volume pricing."
     },
     {
       question: "Can I scale beyond DGX Spark?",

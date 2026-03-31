@@ -22,7 +22,7 @@ const CloudPricing: React.FC = () => {
 
   const instances: GPUInstance[] = [
     {
-      gpu: 'NVIDIA B300',
+      gpu: 'NVIDIA B300 (Blackwell Ultra)',
       gpuCount: 8,
       processor: 'Dual 64-Core',
       ram: '3TB',
@@ -32,7 +32,20 @@ const CloudPricing: React.FC = () => {
       monthlyPrice: null,
       sixMonthPrice: null,
       annualPrice: null,
-      badge: 'Cutting Edge'
+      badge: 'Blackwell Ultra'
+    },
+    {
+      gpu: 'NVIDIA GB200 NVL72',
+      gpuCount: 8,
+      processor: '2x Grace CPU',
+      ram: '1,536GB HBM3e',
+      nvmeStorage: 'Rack-Scale System',
+      additionalStorage: '1.4 EXAFLOPS FP4',
+      network: '800Gb/s NVLink',
+      monthlyPrice: null,
+      sixMonthPrice: null,
+      annualPrice: null,
+      badge: 'Rack Scale'
     },
     {
       gpu: 'NVIDIA B200',
@@ -310,6 +323,16 @@ const CloudPricing: React.FC = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Vera Rubin Roadmap */}
+        <div className="mt-12 text-center">
+          <div className="inline-flex items-center gap-2 px-6 py-3 bg-purple-500/10 border border-purple-500/30 rounded-full">
+            <svg className="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span className="text-sm font-semibold text-purple-300">Vera Rubin (R-series) -- Coming 2027</span>
           </div>
         </div>
 

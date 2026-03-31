@@ -153,7 +153,7 @@ const FeaturesPage: React.FC = () => {
               to="/#dgx-spark"
               className="px-10 py-4 bg-primary text-black font-bold rounded-lg hover:bg-primary-dark transition-all text-lg"
             >
-              Buy DGX Spark - $4,000
+              Buy DGX Spark - $3,999
             </Link>
             <Link
               to="/request-quote"

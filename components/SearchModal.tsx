@@ -24,7 +24,7 @@ const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => {
     {
       id: 'dgx-spark',
       title: 'DGX Spark',
-      description: '$4,000 - Dedicated DGX Instance with 100 Hours Compute',
+      description: '$3,999 - Dedicated DGX Instance with 100 Hours Compute',
       category: 'Product',
       action: () => {
         navigate('/#pricing');
